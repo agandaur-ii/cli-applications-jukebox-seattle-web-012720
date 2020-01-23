@@ -57,8 +57,5 @@ def run(songs)
   
 end
 
-new = list(songs)
-puts "=" *30
-
-puts new.each {|x| puts x}
+puts play(songs)
 
