@@ -55,4 +55,4 @@ end
 
 new = "1"
 
-puts new.to_i == true
+puts new.to_i
