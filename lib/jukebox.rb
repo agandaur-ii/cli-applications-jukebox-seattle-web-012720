@@ -31,8 +31,8 @@ def play(songs)
   if input.to_i >= 1
     numbered_list = list(songs)
     numbered_list.each do |index|
-      if index[0] == input
-        find_index = input - 1
+      if index[0] == input.to_i
+        find_index = input.to_i - 1
         return "Playing #{songs[find_index]}"
       else
         return "Invalid input, please try again"
