@@ -31,10 +31,6 @@ def play(songs)
   if input.to_i >= 1
     numbered_list = list(songs)
     numbered_list.each do |index|
-      puts "=" *40
-      pp index[0].to_i
-      pp input.to_i
-      puts "=" *40
       if index[0].to_i == input.to_i
         find_index = input.to_i - 1
         return "Playing #{songs[find_index]}"
