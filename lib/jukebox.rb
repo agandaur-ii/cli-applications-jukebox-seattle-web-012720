@@ -28,8 +28,10 @@ def play(songs)
   
   if input.to_i >= 1
     numbered_list = list(songs)
-    if numbered_list.each.include?(input)
-      find_index = input - 1
+    numbered_list.each do |index|
+      if index[0] == 
+      
+    end
       return "Playing #{songs[find_index]}"
     else
       return "Invalid input, please try again"    
@@ -53,4 +55,4 @@ def run(songs)
   
 end
 
-puts play(songs)
+puts "1. Phoenix - 1901"[0]
