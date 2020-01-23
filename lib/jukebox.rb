@@ -29,7 +29,8 @@ def play(songs)
   if input.length < 3
     numbered_list = list(songs)
     if numbered_list.each.include?(input)
-      return 
+      find_index = input - 1
+      return songs[find_index]
     end
   end
 end
