@@ -40,7 +40,7 @@ def play(songs)
   end
   
   if input.to_i >= 1
-    numbered_list = list(songs)
+    numbered_list = list_array(songs)
     numbered_list.each do |index|
       if index[0] == input
         find_index = input.to_i - 1
