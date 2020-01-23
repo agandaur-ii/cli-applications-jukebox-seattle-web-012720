@@ -53,4 +53,4 @@ def run(songs)
   
 end
 
-puts "String".to_i == true
+puts "1".to_i == true
