@@ -59,6 +59,6 @@ end
 
 new = list(songs)
 puts "=" *30
-puts new
+pp new
 #puts new.each {|x| puts x}
 
