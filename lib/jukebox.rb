@@ -19,7 +19,7 @@ def help
 end
 
 def list(songs)
-  #songs.each_with_index {|obj, i| puts "#{i + 1}. #{obj}"}
+  songs.each_with_index {|obj, i| puts "#{i + 1}. #{obj}"}
   new = []
   songs.each_with_index {|obj, i| new << "#{i + 1}. #{obj}"}
   new
