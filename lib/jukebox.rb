@@ -23,7 +23,15 @@ def list(songs)
 end
 
 def play(songs)
-  puts 
+  puts "Please enter a song name or number:"
+  input = gets.strip
+  
+  if input.length < 3
+    numbered_list = list(songs)
+    if numbered_list.each.include?(input)
+      return 
+    end
+  end
 end
 
 def exit_jukebox
