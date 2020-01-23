@@ -55,4 +55,4 @@ end
 
 new = list(songs)
 
-puts new.each
+puts new.each {|i| puts i}
