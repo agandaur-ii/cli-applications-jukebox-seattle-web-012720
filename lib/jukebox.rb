@@ -37,7 +37,7 @@ def play(songs)
   end
   
   if input.length > 2 
-    if songs.each.include?(input)
+    if songs.include?(input)
       return "Playing #{input}"
     else
       return "Invalid input, please try again"
