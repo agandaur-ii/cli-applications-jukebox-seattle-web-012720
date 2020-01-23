@@ -55,4 +55,4 @@ end
 
 new = "string"
 
-pp new.to_i
+pp new.to_f
