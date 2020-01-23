@@ -34,3 +34,4 @@ def run(songs)
   
 end
   
+puts list(songs)
