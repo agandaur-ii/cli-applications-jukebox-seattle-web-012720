@@ -53,6 +53,4 @@ def run(songs)
   
 end
 
-new = list(songs)
-puts "=" * 20
-pp new.each {|i| puts i}
+puts songs.include?("Phoenix - 1901")
