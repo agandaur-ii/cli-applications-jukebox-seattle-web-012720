@@ -53,4 +53,6 @@ def run(songs)
   
 end
 
-puts "1".to_i == true
+new = "1"
+
+puts new.to_i == true
