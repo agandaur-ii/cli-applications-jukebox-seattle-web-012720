@@ -53,4 +53,6 @@ def run(songs)
   
 end
 
-puts play(songs)
+new = list(songs)
+
+puts new.each.include?()
