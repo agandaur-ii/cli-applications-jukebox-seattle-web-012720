@@ -37,7 +37,7 @@ def play(songs)
         puts "Playing #{songs[find_index]}"
       end
     end
-  elseif input.to_i == 0 
+  elsif input.to_i == 0 
     if songs.include?(input)
       puts "Playing #{input}"
     end
