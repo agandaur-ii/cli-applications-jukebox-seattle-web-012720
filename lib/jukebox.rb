@@ -26,7 +26,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   input = gets.strip
   
-  if input.length < 3
+  if input.to_i >= 1
     numbered_list = list(songs)
     if numbered_list.each.include?(input)
       find_index = input - 1
@@ -36,7 +36,7 @@ def play(songs)
     end
   end
   
-  if input.length > 2 
+  if input.to_i == 0 
     if songs.include?(input)
       return "Playing #{input}"
     else
