@@ -20,7 +20,7 @@ end
 
 def list(songs)
   new = []
-  songs.each_with_index {|obj, i| new << "#{i + 1}. #{obj}"}
+  puts songs.each_with_index {|obj, i| new << "#{i + 1}. #{obj}"}
   new
 end
 
