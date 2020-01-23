@@ -53,4 +53,4 @@ def run(songs)
   
 end
 
-#puts play(songs)
+puts "String".to_i
