@@ -53,6 +53,6 @@ def run(songs)
   
 end
 
-new = "1"
+new = "string"
 
 pp new.to_i
