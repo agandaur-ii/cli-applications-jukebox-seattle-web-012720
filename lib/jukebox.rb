@@ -34,16 +34,14 @@ def play(songs)
     numbered_list.each do |index|
       if index[0].to_i == input.to_i
         find_index = input.to_i - 1
-        return "Playing #{songs[find_index]}"
+        puts "Playing #{songs[find_index]}"
       end
     end
   end
   
   if input.to_i == 0 
     if songs.include?(input)
-      return "Playing #{input}"
-    else
-      return "Invalid input, please try again"
+      puts "Playing #{input}"
     end
   end
   
