@@ -31,6 +31,8 @@ def play(songs)
     if numbered_list.each.include?(input)
       find_index = input - 1
       return songs[find_index]
+    else
+      return     
     end
   end
 end
