@@ -54,5 +54,5 @@ def run(songs)
 end
 
 new = list(songs)
-
+puts "=" * 20
 pp new.each {|i| puts i}
