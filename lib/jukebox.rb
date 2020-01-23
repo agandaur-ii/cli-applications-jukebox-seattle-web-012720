@@ -29,7 +29,7 @@ def play(songs)
   if input.to_i >= 1
     numbered_list = list(songs)
     numbered_list.each do |index|
-      if index[0] == 
+      if index[0] == input
         
       end
     end
