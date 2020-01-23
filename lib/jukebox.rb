@@ -55,4 +55,4 @@ def run(songs)
   
 end
 
-puts play(songs)
+puts list(songs).each {|x| puts "x"}
