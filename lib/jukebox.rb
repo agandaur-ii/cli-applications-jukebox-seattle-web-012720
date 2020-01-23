@@ -53,6 +53,4 @@ def run(songs)
   
 end
 
-new = "string"
-
-pp new.to_f
+puts play(songs)
