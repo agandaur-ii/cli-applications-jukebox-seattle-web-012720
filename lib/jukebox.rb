@@ -55,5 +55,5 @@ def run(songs)
   
 end
 
-puts list(songs)
+new = list(songs)
 
