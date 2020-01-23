@@ -53,4 +53,4 @@ def run(songs)
   
 end
 
-puts songs.include?("Phoenix")
+puts play(songs)
