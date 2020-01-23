@@ -57,6 +57,3 @@ def run(songs)
   
 end
 
-puts "=" * 40
-puts play(songs)
-puts "=" * 40
