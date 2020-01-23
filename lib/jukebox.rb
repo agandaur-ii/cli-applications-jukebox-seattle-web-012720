@@ -36,7 +36,7 @@ def play(songs)
       pp index[0]
       pp input
       puts "=" *40
-      if index[0].to_i == input.to_i
+      if index[0] == input
         find_index = input.to_i - 1
         puts "Playing #{songs[find_index]}"
       end
