@@ -22,7 +22,7 @@ def list
   
 end
 
-def list 
+def play
 
 end
 
