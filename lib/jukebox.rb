@@ -29,6 +29,13 @@ def play(songs)
   puts "Please enter a song name or number:"
   input = gets.strip
   
+  if input.to_i == 0 
+    if songs.include?(input)
+      puts "Playing #{input}"
+      return
+    end
+  end
+  
   if input.to_i >= 1
     numbered_list = list(songs)
     numbered_list.each do |index|
@@ -37,12 +44,6 @@ def play(songs)
         puts "Playing #{songs[find_index]}"
         return
       end
-    end
-  end
-  if input.to_i == 0 
-    if songs.include?(input)
-      puts "Playing #{input}"
-      return
     end
   end
   puts "Invalid input, please try again"
