@@ -35,11 +35,13 @@ def play(songs)
       if index[0] == input
         find_index = input.to_i - 1
         puts "Playing #{songs[find_index]}"
+        return
       end
     end
   elsif input.to_i == 0 
     if songs.include?(input)
       puts "Playing #{input}"
+      return
     end
   else
     puts "Invalid input, please try again"
