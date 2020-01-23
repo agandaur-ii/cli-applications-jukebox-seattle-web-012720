@@ -34,8 +34,6 @@ def play(songs)
       if index[0].to_i == input.to_i
         find_index = input.to_i - 1
         return "Playing #{songs[find_index]}"
-      else
-        return "Invalid input, please try again"
       end
     end
   end
@@ -47,6 +45,9 @@ def play(songs)
       return "Invalid input, please try again"
     end
   end
+  
+  puts "Invalid input, please try again"
+  
 end
 
 def exit_jukebox
