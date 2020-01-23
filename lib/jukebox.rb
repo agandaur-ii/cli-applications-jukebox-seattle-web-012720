@@ -34,6 +34,7 @@ def play(songs)
     numbered_list.each do |index|
       puts "=" *40
       pp index[0]
+      pp input
       puts "=" *40
       if index[0].to_i == input.to_i
         find_index = input.to_i - 1
