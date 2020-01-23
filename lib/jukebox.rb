@@ -55,4 +55,4 @@ end
 
 new = "1"
 
-puts new.to_i
+pp new.to_i
