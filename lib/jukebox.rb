@@ -24,11 +24,10 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  numbered_list = list(songs); 0
   input = gets.strip
   
   if input.to_i >= 1
-    #numbered_list = list(songs)
+    numbered_list = list(songs)
     numbered_list.each do |index|
       if index[0] == input
         find_index = input - 1
