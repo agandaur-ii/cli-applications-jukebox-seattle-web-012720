@@ -30,9 +30,17 @@ def play(songs)
     numbered_list = list(songs)
     if numbered_list.each.include?(input)
       find_index = input - 1
-      return songs[find_index]
+      return "Playings #{songs[find_index]}"
     else
-      return     
+      return "Invalid input, please try again"    
+    end
+  end
+  
+  if input.length > 2 
+    if songs.each.include?(input)
+      return 
+    else
+      
     end
   end
 end
