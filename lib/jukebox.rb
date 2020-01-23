@@ -55,4 +55,4 @@ end
 
 new = list(songs)
 
-puts new.each.include?()
+puts new.each.include?("1. Phoenix - 1901")
